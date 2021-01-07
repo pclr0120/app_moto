@@ -33,10 +33,15 @@ dependencies:
   intl: ^0.16.1
   date_format: ^1.0.8
   fluttertoast: ^7.1.1
-  signalr_core: ^1.0.6
   location: ^3.1.0
   google_maps_flutter: ^1.0.6
   geolocator: ^6.1.10
+  flutter_polyline_points: ^0.2.4
+  signalr_core :
+     git : 
+       url : https://github.com/jamiewest/signalr_core.git 
+       ref : 3e8abe6e5ac1dd9dd2f18c0df91bfd9c8ba8a4af
+
 
 
   # The following adds the Cupertino Icons font to your application.

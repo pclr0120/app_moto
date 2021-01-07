@@ -1,5 +1,6 @@
 # moto_app
-
+Autor:Pablo Cesar Leyva Ramirez
+Todos los derechos reservados.
 A new Flutter project.
 
 ## Getting Started

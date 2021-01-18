@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
-import 'package:moto_app/model/location_device.dart';
+import 'package:moto_app/model/locationDevice.dart';
 
 class LocationDevice with ChangeNotifier {
   Location _location;

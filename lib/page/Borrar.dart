@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moto_app/provider/location_device.dart';
+import 'package:moto_app/provider/locationDevice.dart';
 import 'package:provider/provider.dart';
 
 class GetLocationPage extends StatefulWidget {

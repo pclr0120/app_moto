@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:moto_app/provider/location_device.dart';
+import 'package:moto_app/provider/locationDevice.dart';
+import 'package:moto_app/share/widget/profile/LogOutWidget.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -33,6 +34,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: new Column(
         children: <Widget>[
+          ButtonLogOut(),
           SizedBox(height: 300.0),
           GestureDetector(
             child: FadeInLeftBig(
